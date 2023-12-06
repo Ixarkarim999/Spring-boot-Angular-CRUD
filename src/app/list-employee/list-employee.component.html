@@ -9,7 +9,11 @@
     </form>
     
 </div> -->
-<h5 style="border-left: 4px solid grey; padding-left: 10px;">Employee List</h5>
+<app-header></app-header>
+
+<div class="container">
+<h5 style="border-left: 4px solid grey; padding-left: 10px; margin-top: 2rem;">Employee List</h5>
+
 <div class="input-group mb-3">
     <div class="input-group-prepend" style="margin-left: auto;">
     <div class="input-group mb-3">
@@ -74,8 +78,8 @@
 <pagination-controls (pageChange)="p = $event"></pagination-controls>
 
 </table>
-
+<app-delete-all-modal></app-delete-all-modal>
+</div>
 
     <!-- <div><button class="btn btn-success " (click)="openModal()">Delete All</button></div> -->
 
-<app-delete-all-modal></app-delete-all-modal>

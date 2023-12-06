@@ -11,7 +11,10 @@ import { FormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
 import { DeleteAllModalComponent } from './delete-all-modal/delete-all-modal.component';
 import {DataTablesModule} from 'angular-datatables';
-import { PaginationComponent } from './pagination/pagination.component'
+import { PaginationComponent } from './pagination/pagination.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { HeaderComponent } from './header/header.component'
 
 
 @NgModule({
@@ -23,6 +26,9 @@ import { PaginationComponent } from './pagination/pagination.component'
     EmployeeDetails,
     DeleteAllModalComponent,
     PaginationComponent,
+    LoginComponent,
+    SignupComponent,
+    HeaderComponent,
 
   ],
   imports: [
